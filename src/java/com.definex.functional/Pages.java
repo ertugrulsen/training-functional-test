@@ -1,14 +1,14 @@
 package com.definex.functional;
 
 public class Pages {
-    public static DfxPage homePage() {
+    public static DfxPage dfxPage() {
         DfxPage dfxPage = new DfxPage();
 
         return dfxPage;
     }
 
-    public static GooglePage authorPages() {
-        GooglePage authorPages = new GooglePage();
-        return authorPages;
+    public static GooglePage googlePage() {
+        GooglePage googlePage = new GooglePage();
+        return googlePage;
     }
 }
